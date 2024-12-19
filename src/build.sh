@@ -1,6 +1,7 @@
 #!/bin/sh
 set -e
 
+
 export TMPDIR="$PWD/tmp"
 rm -rf "$TMPDIR"
 mkdir -p "$TMPDIR"
